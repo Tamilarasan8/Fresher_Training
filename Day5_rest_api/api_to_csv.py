@@ -9,4 +9,3 @@ with open('text.json','w') as e:
     json.dump(response,e,indent=4)
 r=pd.read_json('text.json')
 r.to_csv('file.csv')
-        
