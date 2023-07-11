@@ -8,11 +8,6 @@ x=[D,D,D,D,C,C,C,C,R,R,R,R]
 y=[D,D,C,R,D,C,C,C,R,R,R,C]
 print(metrics.confusion_matrix(x,y))
 print(metrics.classification_report(x,y))
-a=np.array([1,0,1,0,1])
-b=np.array([0.1,0.2,0.3,0.4,0.5])
-# plot_roc_curve(test,pred)
-print(metrics.roc_auc_score(a,b))
-
 y_test=[1,0,1,0,1,0]
 y_pred=[1,0,0,1,0,1]
 prop=[0.7,0.4,0.6,0.5,0.2,0.3]
