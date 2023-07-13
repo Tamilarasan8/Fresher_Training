@@ -7,5 +7,3 @@ x=df.iloc[:,2]
 y=df.iloc[:,-1]
 # print(f'Precision : {metrics.precision_score(x,y)}')
 print(f'Roc_Auc : {metrics.roc_auc_score(y,x)}')
-one_hot_encoded_data = pd.get_dummies(df, columns = ['segments', 'stdev'])
-print(one_hot_encoded_data)
