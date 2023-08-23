@@ -1,5 +1,0 @@
-2023-07-04 17:47:30,055:ERROR:root:error
-2023-07-04 17:47:30,055:CRITICAL:root:critical
-2023-07-04 17:47:30,055:DEBUG:root:debugging
-2023-07-04 17:47:30,055:INFO:root:info 
-2023-07-04 17:47:30,070:WARNING:root:warning
